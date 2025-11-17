@@ -49,12 +49,6 @@ jupytext.toml
 Thumbs.db
 
 # ------------------------------
-# Sphinx documentation
-# ------------------------------
-docs/_build/
-docs/_autosummary/
-
-# ------------------------------
 # Test outputs / data
 # ------------------------------
 .coverage

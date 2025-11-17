@@ -22,10 +22,4 @@ jobs:
         pip install pytest
 
     - name: Run tests
-      run: |
-        echo "=== DEBUG: Current directory ==="
-        pwd
-        echo "=== DEBUG: List all files ==="
-        ls -R .
-        echo "=== RUN PYTEST ==="
-        pytest -q
+      run: pytest -q
