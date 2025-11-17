@@ -1,0 +1,63 @@
+# ------------------------------
+# Python cache and build artifacts
+# ------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*$py.class
+
+# Build directories
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ------------------------------
+# Virtual environments
+# ------------------------------
+env/
+venv/
+.venv/
+conda-env/
+*.conda
+*.env
+*.venv
+
+# ------------------------------
+# Editor / IDE settings
+# ------------------------------
+.vscode/
+.idea/
+*.swp
+
+# ------------------------------
+# Jupyter / nbval
+# ------------------------------
+.ipynb_checkpoints/
+*.ipynb~
+jupytext.toml
+
+# ------------------------------
+# OS files
+# ------------------------------
+.DS_Store
+Thumbs.db
+
+# ------------------------------
+# Sphinx documentation
+# ------------------------------
+docs/_build/
+docs/_autosummary/
+
+# ------------------------------
+# Test outputs / data
+# ------------------------------
+.coverage
+htmlcov/
+cov.xml
+pytest_cache/
