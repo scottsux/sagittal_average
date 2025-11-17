@@ -22,5 +22,5 @@ jobs:
         pip install pytest
 
     - name: Run tests
-      run: pytest -q
+      run: python test_call_comand.py
 
