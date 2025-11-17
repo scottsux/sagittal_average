@@ -1,5 +1,5 @@
 import numpy as np
-from sagittal_brain import run_averages
+from sagittal_average import run_averages
 
 
 def test_sagittal_brain():

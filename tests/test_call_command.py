@@ -1,3 +1,3 @@
 import subprocess
 
-subprocess.run(["pytest", "test.py"])
+subprocess.run(["pytest", "test_basic.py"])
